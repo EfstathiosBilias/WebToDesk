@@ -35,9 +35,5 @@ Categories=Network;" | tee ~/.local/share/applications/$LOWERCASE_NAME.desktop >
 
 chmod +x ~/.local/share/applications/$LOWERCASE_NAME.desktop 
 
-# Step 5: Add Shortcut to Desktop (Optional)
-cp ~/.local/share/applications/$LOWERCASE_NAME.desktop ~/Desktop/
-chmod +x ~/Desktop/$LOWERCASE_NAME.desktop
-
 # Step 6: Refresh Application Menu
 xdg-desktop-menu forceupdate
