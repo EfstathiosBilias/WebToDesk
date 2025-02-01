@@ -35,5 +35,5 @@ Categories=Network;" | tee ~/.local/share/applications/$LOWERCASE_NAME.desktop >
 
 chmod +x ~/.local/share/applications/$LOWERCASE_NAME.desktop 
 
-# Step 6: Refresh Application Menu
+# Step 5: Refresh Application Menu
 xdg-desktop-menu forceupdate
